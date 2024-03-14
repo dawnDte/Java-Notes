@@ -1,0 +1,9 @@
+mvn archetype:generate ^
+   -DgroupId=org.jeecg.modules.bm ^
+   -Dmodule=bm^
+   -Dmodule-up-first=Bm^
+   -DartifactId=cpmp-module-bm ^
+   -Dversion=3.6.2^
+   -DarchetypeGroupId=org.jeecgframework.archetype ^
+   -DarchetypeArtifactId=jeecg-cloud-gen ^
+   -DarchetypeVersion=3.5.0
